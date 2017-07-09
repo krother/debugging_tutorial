@@ -62,7 +62,7 @@ def read_question_tree(fn):
                 # find last unfinished node
                 while head.is_full() and stack:
                     stack.pop()
-                    head = stack[-1
+                head = stack[-1
             return root.yes
 
 

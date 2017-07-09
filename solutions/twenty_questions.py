@@ -9,7 +9,7 @@ class QuestionNode:
     and two possible answers
     """
     def __init__(self, text):
-        self.text = text
+        self.text = text.strip()
         self.yes = None
         self.no = None
 
@@ -20,12 +20,11 @@ class QuestionNode:
         elif not self.no: # BUG: omit elif and else
             self.no = node
         else:
-            print(node)
             raise(Exception("trying to add to full node"))
 
     def is_full(self):
         """True if both branches are occupied"""
-        return self.yes and self.no
+        return self.yes and self.no # BUG: missing return
 
     def __repr__(self): # BUG: omit __repr__
         return "({},{})".format(str(self.yes), str(self.no))
@@ -35,7 +34,7 @@ class AnswerNode:
     """Leaf node containing an answer."""
 
     def __init__(self, text):
-        self._text = text[2:]
+        self._text = text[2:].strip()
 
     @property
     def text(self):
@@ -72,7 +71,7 @@ def read_question_tree(fn):
                 # find last unfinished node
                 while head.is_full() and stack:
                     stack.pop()
-                    head = stack[-1]
+                    head = stack[-1] # BUG: indent
     return root.yes # BUG: indent
     # BUG: return root
 
@@ -92,5 +91,5 @@ def play(node):
 
 
 if __name__ == '__main__':
-    tree = read_question_tree('questions.txt')
+    tree = read_question_tree('../twenty_questions/questions.txt')
     play(tree)
