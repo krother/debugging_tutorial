@@ -1,0 +1,3717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="binary_search.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path5194"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5194-9"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="522.76726"
+     inkscape:cy="1069.1165"
+     inkscape:document-units="px"
+     inkscape:current-layer="g10000"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3129"
+       transform="translate(205.94928,92.934035)">
+      <g
+         id="g3237"
+         transform="matrix(1,0,0,-1,0,50.074072)" />
+      <g
+         id="g5686">
+        <rect
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-205.94928,-92.934035)"
+           y="-0.49496078"
+           x="-1.4285715"
+           height="390"
+           width="745.71429"
+           id="rect5684"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="matrix(0.79877944,0,0,0.79877944,86.086139,36.613537)"
+           id="g3310">
+          <rect
+             style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+             id="rect3155"
+             width="37.115925"
+             height="37.115925"
+             x="93.307266"
+             y="228.71263" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot3157"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-152.58451,-223.66213)"><flowRegion
+               id="flowRegion3159"><rect
+                 id="rect3161"
+                 width="35.357143"
+                 height="36.785713"
+                 x="254.28572"
+                 y="452.71933" /></flowRegion><flowPara
+               id="flowPara3163"
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>        </g>
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(31.428571,37.142857)"
+           id="g5066">
+          <g
+             transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)"
+             id="g3045">
+            <g
+               id="g3019">
+              <rect
+                 y="69.108536"
+                 x="172.03825"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect2997"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect2999"
+                 width="37.115925"
+                 height="37.115925"
+                 x="132.67276"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="93.307266"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3001"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3003"
+                 width="37.115925"
+                 height="37.115925"
+                 x="53.94178"
+                 y="69.108536" />
+            </g>
+            <g
+               id="g3013"
+               transform="translate(157.46196,0)">
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3005"
+                 width="37.115925"
+                 height="37.115925"
+                 x="172.03825"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="132.67276"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3007"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3009"
+                 width="37.115925"
+                 height="37.115925"
+                 x="93.307266"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="53.94178"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3011"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3319"
+                 width="37.115925"
+                 height="37.115925"
+                 x="53.94178"
+                 y="69.108536" />
+            </g>
+            <g
+               transform="translate(314.92392,0)"
+               id="g3025">
+              <rect
+                 y="69.108536"
+                 x="172.03825"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3027"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3029"
+                 width="37.115925"
+                 height="37.115925"
+                 x="132.67276"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="93.307266"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3031"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3033"
+                 width="37.115925"
+                 height="37.115925"
+                 x="53.94178"
+                 y="69.108536" />
+            </g>
+            <g
+               id="g3035"
+               transform="translate(472.38588,0)">
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3037"
+                 width="37.115925"
+                 height="37.115925"
+                 x="172.03825"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="132.67276"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3039"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect3041"
+                 width="37.115925"
+                 height="37.115925"
+                 x="93.307266"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="53.94178"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect3043"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            </g>
+          </g>
+          <flowRoot
+             transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot3189"
+             xml:space="preserve"><flowRegion
+               id="flowRegion3191"><rect
+                 y="452.71933"
+                 x="254.28572"
+                 height="36.785713"
+                 width="35.357143"
+                 id="rect3193" /></flowRegion><flowPara
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+               id="flowPara3195">X</flowPara></flowRoot>          <path
+             style="fill:#ff0000;stroke:#ff0000;stroke-width:4.79267645;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 222.5882,-102.46984 0,47.710263"
+             id="path5036"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cc"
+             inkscape:connector-curvature="0"
+             id="path5161"
+             d="m -14.92385,199.00728 121.05393,0"
+             style="fill:none;stroke:#000000;stroke-width:3.19511771;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path5607"
+             d="M 224.49578,170.47944 z"
+             style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="matrix(0.79877944,0,0,-0.79877944,86.086139,125.18831)"
+           id="g5095">
+          <g
+             id="g3275"
+             transform="matrix(1,0,0,-1,0,94.520784)">
+            <g
+               transform="translate(-155.44165,-248.49753)"
+               id="g3139">
+              <g
+                 id="g3069"
+                 transform="translate(-2.0203051,133.34014)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect3071"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect3073"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect3075"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect3077"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(155.44165,133.34014)"
+                 id="g3079">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect3081"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect3083"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect3085"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect3087"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+            </g>
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot3181"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="translate(-152.58451,-497.78473)"><flowRegion
+                 id="flowRegion3183"><rect
+                   id="rect3185"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara3187"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>          </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path5038"
+             d="m 52.870711,152.25137 0,-59.72896"
+             style="fill:#ff0000;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="matrix(0.79877944,0,0,-0.79877944,86.086139,147.50682)"
+           id="g5132">
+          <g
+             id="g3292"
+             transform="matrix(1,0,0,-1,0,140.98777)">
+            <rect
+               y="59.007011"
+               x="172.03825"
+               height="37.115925"
+               width="37.115925"
+               id="rect3131"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect3133"
+               width="37.115925"
+               height="37.115925"
+               x="132.67276"
+               y="59.007011" />
+            <rect
+               y="59.007011"
+               x="93.307266"
+               height="37.115925"
+               width="37.115925"
+               id="rect3135"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect3137"
+               width="37.115925"
+               height="37.115925"
+               x="53.94178"
+               y="59.007011" />
+            <flowRoot
+               transform="translate(-152.58451,-393.02473)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot3173"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion3175"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect3177" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara3179">X</flowPara></flowRoot>          </g>
+          <path
+             style="fill:#ff0000;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 131.55072,93.935483 0,-59.72896"
+             id="path5038-3"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="matrix(0.79877944,0,0,-0.79877944,86.086139,168.76531)"
+           id="g5151">
+          <g
+             id="g3302"
+             transform="matrix(1,0,0,-1,0,175.33301)">
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect3151"
+               width="37.115925"
+               height="37.115925"
+               x="93.307266"
+               y="151.94104" />
+            <rect
+               y="151.94104"
+               x="53.94178"
+               height="37.115925"
+               width="37.115925"
+               id="rect3153"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot3165"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="translate(-152.58451,-300.44785)"><flowRegion
+                 id="flowRegion3167"><rect
+                   id="rect3169"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara3171"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>          </g>
+          <path
+             style="fill:#ff0000;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 92.622146,34.292627 0,-59.72896"
+             id="path5038-37"
+             inkscape:connector-curvature="0" />
+        </g>
+        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-186.76597,-78.770508)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot5609"
+           xml:space="preserve"><flowRegion
+             id="flowRegion5611"><rect
+               y="23.790754"
+               x="-8.5714283"
+               height="42.857143"
+               width="168.57143"
+               id="rect5613" /></flowRegion><flowPara
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+             id="flowPara5615">complete data</flowPara></flowRoot>        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           xml:space="preserve"
+           id="flowRoot5644"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-186.66831,-8.7705081)"><flowRegion
+             id="flowRegion5646"><rect
+               id="rect5648"
+               width="197.14285"
+               height="32.85714"
+               x="-8.5714283"
+               y="23.790754" /></flowRegion><flowPara
+             id="flowPara5650"
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">after 1st partition</flowPara></flowRoot>        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-186.66831,59.800921)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot5660"
+           xml:space="preserve"><flowRegion
+             id="flowRegion5662"><rect
+               y="23.790754"
+               x="-8.5714283"
+               height="32.85714"
+               width="197.14285"
+               id="rect5664" /></flowRegion><flowPara
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+             id="flowPara5666">after 2nd partition</flowPara></flowRoot>        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           xml:space="preserve"
+           id="flowRoot5668"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-189.52545,126.94378)"><flowRegion
+             id="flowRegion5670"><rect
+               id="rect5672"
+               width="197.14285"
+               height="32.85714"
+               x="-8.5714283"
+               y="23.790754" /></flowRegion><flowPara
+             id="flowPara5674"
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">after 3rd partition</flowPara></flowRoot>        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-189.52545,198.37235)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot5676"
+           xml:space="preserve"><flowRegion
+             id="flowRegion5678"><rect
+               y="23.790754"
+               x="-8.5714283"
+               height="35.714283"
+               width="220"
+               id="rect5680" /></flowRegion><flowPara
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+             id="flowPara5682">minimal failing data</flowPara></flowRoot>      </g>
+    </g>
+    <g
+       id="g4769"
+       style="stroke:#483e37">
+      <g
+         id="g10000"
+         transform="translate(-197.30438,37.142857)"
+         style="stroke:#000000" />
+    </g>
+    <g
+       id="g5783"
+       transform="translate(203.09214,-374.9231)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect5785"
+         width="745.71429"
+         height="390"
+         x="-1.4285715"
+         y="-0.49496078"
+         transform="translate(-205.94928,-92.934035)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_begin.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999" />
+      <g
+         id="g5799"
+         transform="translate(31.428571,37.142857)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_begin.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999">
+        <g
+           id="g5801"
+           transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)">
+          <g
+             id="g5803">
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5805"
+               width="37.115925"
+               height="37.115925"
+               x="172.03825"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="132.67276"
+               height="37.115925"
+               width="37.115925"
+               id="rect5807"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5809"
+               width="37.115925"
+               height="37.115925"
+               x="93.307266"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="53.94178"
+               height="37.115925"
+               width="37.115925"
+               id="rect5811"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+          </g>
+          <g
+             transform="translate(157.46196,0)"
+             id="g5813">
+            <rect
+               y="69.108536"
+               x="172.03825"
+               height="37.115925"
+               width="37.115925"
+               id="rect5815"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5817"
+               width="37.115925"
+               height="37.115925"
+               x="132.67276"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="93.307266"
+               height="37.115925"
+               width="37.115925"
+               id="rect5819"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5821"
+               width="37.115925"
+               height="37.115925"
+               x="53.94178"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="53.94178"
+               height="37.115925"
+               width="37.115925"
+               id="rect5823"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+          </g>
+          <g
+             id="g5825"
+             transform="translate(314.92392,0)">
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5827"
+               width="37.115925"
+               height="37.115925"
+               x="172.03825"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="132.67276"
+               height="37.115925"
+               width="37.115925"
+               id="rect5829"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5831"
+               width="37.115925"
+               height="37.115925"
+               x="93.307266"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="53.94178"
+               height="37.115925"
+               width="37.115925"
+               id="rect5833"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+          </g>
+          <g
+             transform="translate(472.38588,0)"
+             id="g5835">
+            <rect
+               y="69.108536"
+               x="172.03825"
+               height="37.115925"
+               width="37.115925"
+               id="rect5837"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5839"
+               width="37.115925"
+               height="37.115925"
+               x="132.67276"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="93.307266"
+               height="37.115925"
+               width="37.115925"
+               id="rect5841"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect5843"
+               width="37.115925"
+               height="37.115925"
+               x="53.94178"
+               y="69.108536" />
+          </g>
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot5845"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"><flowRegion
+             id="flowRegion5847"><rect
+               id="rect5849"
+               width="35.357143"
+               height="36.785713"
+               x="254.28572"
+               y="452.71933" /></flowRegion><flowPara
+             id="flowPara5851"
+             style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>        <path
+           style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 224.49578,170.47944 z"
+           id="path5857"
+           inkscape:connector-curvature="0" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot5935"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(-186.76597,-78.770508)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_begin.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion5937"><rect
+             id="rect5939"
+             width="168.57143"
+             height="42.857143"
+             x="-8.5714283"
+             y="23.790754" /></flowRegion><flowPara
+           id="flowPara5941"
+           style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">complete data</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(1062.5586,92.934035)"
+       id="g6284"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step2.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         transform="matrix(1,0,0,-1,0,50.074072)"
+         id="g6286" />
+      <g
+         id="g6288">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect6290"
+           width="745.71429"
+           height="390"
+           x="-1.4285715"
+           y="-0.49496078"
+           transform="translate(-205.94928,-92.934035)"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6362"
+           d="M 255.92435,207.6223 z"
+           style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <g
+           id="g6809">
+          <g
+             transform="translate(31.428571,37.142857)"
+             id="g6572">
+            <g
+               transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)"
+               id="g6306">
+              <g
+                 id="g6308">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6310"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6312"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6314"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6316"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 id="g6318"
+                 transform="translate(157.46196,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6320"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6322"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6324"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6326"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6328"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 transform="translate(314.92392,0)"
+                 id="g6330">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6332"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6334"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6336"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6338"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 id="g6340"
+                 transform="translate(472.38588,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6342"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6344"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6346"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6348"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+            </g>
+            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot6350"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion6352"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect6354" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara6356">2</flowPara></flowRoot>            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6480"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-162.17814,-453.16916)"><flowRegion
+                 id="flowRegion6482"><rect
+                   id="rect6484"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara6486"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-34.898923,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot6488"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion6490"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect6492" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara6494">3</flowPara></flowRoot>          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             transform="translate(-186.76597,-78.770508)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot6440"
+             xml:space="preserve"><flowRegion
+               id="flowRegion6442"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="42.857143"
+                 width="168.57143"
+                 id="rect6444" /></flowRegion><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara6446">complete data</flowPara></flowRoot>        </g>
+        <g
+           id="g6850"
+           transform="translate(0,25.253814)">
+          <g
+             id="g6609"
+             transform="translate(31.428571,103.81293)">
+            <g
+               id="g6611"
+               transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)">
+              <g
+                 id="g6613">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6615"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6617"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6619"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6621"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(157.46196,0)"
+                 id="g6623">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6625"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6627"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6629"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6631"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6633"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 id="g6635"
+                 transform="translate(314.92392,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6637"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6639"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6641"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6643"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(472.38588,0)"
+                 id="g6645">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6647"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6649"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6651"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6653"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+            </g>
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6655"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"><flowRegion
+                 id="flowRegion6657"><rect
+                   id="rect6659"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara6661"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>            <path
+               inkscape:connector-curvature="0"
+               id="path6663"
+               d="m 222.5882,-102.46984 0,47.710263"
+               style="fill:#ff0000;stroke:#ff0000;stroke-width:4.79267645;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-162.17814,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot6665"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion6667"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect6669" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara6671">1</flowPara></flowRoot>            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6673"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-34.898923,-453.16916)"><flowRegion
+                 id="flowRegion6675"><rect
+                   id="rect6677"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara6679"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             xml:space="preserve"
+             id="flowRoot6448"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-186.66831,-8.7705081)"><flowRegion
+               id="flowRegion6450"><rect
+                 id="rect6452"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara6454"
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">1st partition</flowPara></flowRoot>          <flowRoot
+             transform="translate(99.20486,18.50361)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot6681"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion6683"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect6685" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold"
+               id="flowPara6687">FAIL</flowPara></flowRoot>          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             xml:space="preserve"
+             id="flowRoot6689"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(347.70239,18.50361)"><flowRegion
+               id="flowRegion6691"><rect
+                 id="rect6693"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara6695"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="1319.2592"
+           y="267.47366"
+           id="text6697"
+           sodipodi:linespacing="125%"
+           transform="translate(-1062.5586,-92.934035)"><tspan
+             sodipodi:role="line"
+             id="tspan6699"
+             x="1319.2592"
+             y="267.47366" /></text>
+        <g
+           id="g6900"
+           transform="translate(0,47.47717)">
+          <g
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             transform="matrix(0.79877944,0,0,-0.79877944,86.086139,195.89899)"
+             id="g6364">
+            <g
+               id="g6366"
+               transform="matrix(1,0,0,-1,0,94.520784)">
+              <g
+                 transform="translate(-155.44165,-248.49753)"
+                 id="g6368">
+                <g
+                   id="g6370"
+                   transform="translate(-2.0203051,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect6372"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect6374"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect6376"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="53.94178"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect6378"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+                <g
+                   transform="translate(155.44165,133.34014)"
+                   id="g6380">
+                  <rect
+                     y="69.108536"
+                     x="172.03825"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect6382"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect6384"
+                     width="37.115925"
+                     height="37.115925"
+                     x="132.67276"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="93.307266"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect6386"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect6388"
+                     width="37.115925"
+                     height="37.115925"
+                     x="53.94178"
+                     y="69.108536" />
+                </g>
+              </g>
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot6390"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-152.58451,-497.78473)"><flowRegion
+                   id="flowRegion6392"><rect
+                     id="rect6394"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara6396"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>              <flowRoot
+                 transform="translate(-113.38129,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot6504"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion6506"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect6508" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara6510">3</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot6512"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-270.19418,-497.78473)"><flowRegion
+                   id="flowRegion6514"><rect
+                     id="rect6516"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara6518"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            </g>
+            <path
+               inkscape:connector-curvature="0"
+               id="path6398"
+               d="m 52.870711,152.25137 0,-59.72896"
+               style="fill:#ff0000;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             transform="translate(-186.66831,59.800921)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot6456"
+             xml:space="preserve"><flowRegion
+               id="flowRegion6458"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect6460" /></flowRegion><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara6462">2nd partition</flowPara></flowRoot>          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             xml:space="preserve"
+             id="flowRoot6689-9"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(47.619074,93.656948)"><flowRegion
+               id="flowRegion6691-1"><rect
+                 id="rect6693-5"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara6695-8"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>          <flowRoot
+             transform="translate(162.77646,93.656948)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot6728"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion6730"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect6732" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+               id="flowPara6734">PASS</flowPara></flowRoot>        </g>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step1.png"
+       id="g6940"
+       transform="translate(1062.5586,-343.45186)">
+      <g
+         id="g6942"
+         transform="matrix(1,0,0,-1,0,50.074072)" />
+      <g
+         id="g6944"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step1.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999">
+        <rect
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-205.94928,-92.934035)"
+           y="-0.49496078"
+           x="-1.4285715"
+           height="390"
+           width="745.71429"
+           id="rect6946"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 255.92435,207.6223 z"
+           id="path6948"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g6950">
+          <g
+             id="g6952"
+             transform="translate(31.428571,37.142857)">
+            <g
+               id="g6954"
+               transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)">
+              <g
+                 id="g6956">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6958"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6960"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6962"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6964"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(157.46196,0)"
+                 id="g6966">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6968"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6970"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6972"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6974"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6976"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 id="g6978"
+                 transform="translate(314.92392,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6980"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6982"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6984"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6986"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(472.38588,0)"
+                 id="g6988">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6990"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6992"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect6994"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect6996"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+            </g>
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot6998"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"><flowRegion
+                 id="flowRegion7000"><rect
+                   id="rect7002"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara7004"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-162.17814,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot7006"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion7008"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect7010" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara7012">1</flowPara></flowRoot>            <flowRoot
+               xml:space="preserve"
+               id="flowRoot7014"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-34.898923,-453.16916)"><flowRegion
+                 id="flowRegion7016"><rect
+                   id="rect7018"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara7020"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>          </g>
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot7022"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-186.76597,-78.770508)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion7024"><rect
+                 id="rect7026"
+                 width="168.57143"
+                 height="42.857143"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara7028"
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">complete data</flowPara></flowRoot>        </g>
+        <g
+           transform="translate(0,25.253814)"
+           id="g7030">
+          <g
+             transform="translate(31.428571,103.81293)"
+             id="g7032">
+            <g
+               transform="matrix(0.79877944,0,0,0.79877944,-71.119804,-147.53431)"
+               id="g7034">
+              <g
+                 id="g7036">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7038"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7040"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7042"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7044"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 id="g7046"
+                 transform="translate(157.46196,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7048"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7050"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7052"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7054"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7056"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 transform="translate(314.92392,0)"
+                 id="g7058">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7060"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7062"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7064"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7066"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+              <g
+                 id="g7068"
+                 transform="translate(472.38588,0)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7070"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7072"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7074"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7076"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+            </g>
+            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-67.223804,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot7078"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion7080"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect7082" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara7084">2</flowPara></flowRoot>            <path
+               style="fill:#ff0000;stroke:#ff0000;stroke-width:4.79267645;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+               d="m 222.5882,-102.46984 0,47.710263"
+               id="path7086"
+               inkscape:connector-curvature="0" />
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot7088"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="matrix(0.79877944,0,0,0.79877944,-162.17814,-453.16916)"><flowRegion
+                 id="flowRegion7090"><rect
+                   id="rect7092"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara7094"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            <flowRoot
+               transform="matrix(0.79877944,0,0,0.79877944,-34.898923,-453.16916)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot7096"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion7098"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect7100" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara7102">3</flowPara></flowRoot>          </g>
+          <flowRoot
+             transform="translate(-186.66831,-8.7705081)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot7104"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion7106"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect7108" /></flowRegion><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara7110">1st partition</flowPara></flowRoot>          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             xml:space="preserve"
+             id="flowRoot7112"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(99.20486,18.50361)"><flowRegion
+               id="flowRegion7114"><rect
+                 id="rect7116"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara7118"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold">FAIL</flowPara></flowRoot>          <flowRoot
+             transform="translate(347.70239,18.50361)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot7120"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion7122"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect7124" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+               id="flowPara7126">PASS</flowPara></flowRoot>        </g>
+        <text
+           transform="translate(-1062.5586,-92.934035)"
+           sodipodi:linespacing="125%"
+           id="text7128"
+           y="267.47366"
+           x="1319.2592"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="267.47366"
+             x="1319.2592"
+             id="tspan7130"
+             sodipodi:role="line" /></text>
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step2.png"
+       id="g7210"
+       transform="translate(1882.5586,92.934035)">
+      <g
+         id="g7212"
+         transform="matrix(1,0,0,-1,0,50.074072)" />
+      <g
+         id="g7214"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999">
+        <rect
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+           transform="translate(-205.94928,-92.934035)"
+           y="-0.49496078"
+           x="-1.4285715"
+           height="390"
+           width="745.71429"
+           id="rect7216"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 255.92435,207.6223 z"
+           id="path7218"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999" />
+        <text
+           transform="translate(-1062.5586,-92.934035)"
+           sodipodi:linespacing="125%"
+           id="text7398"
+           y="267.47366"
+           x="1319.2592"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="267.47366"
+             x="1319.2592"
+             id="tspan7400"
+             sodipodi:role="line" /></text>
+        <g
+           transform="translate(0,-142.52283)"
+           id="g7402"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999">
+          <g
+             id="g7404"
+             transform="matrix(0.79877944,0,0,-0.79877944,86.086139,195.89899)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999">
+            <g
+               transform="matrix(1,0,0,-1,0,94.520784)"
+               id="g7406">
+              <g
+                 id="g7408"
+                 transform="translate(-155.44165,-248.49753)">
+                <g
+                   transform="translate(-2.0203051,133.34014)"
+                   id="g7410">
+                  <rect
+                     y="69.108536"
+                     x="172.03825"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7412"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7414"
+                     width="37.115925"
+                     height="37.115925"
+                     x="132.67276"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="93.307266"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7416"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7418"
+                     width="37.115925"
+                     height="37.115925"
+                     x="53.94178"
+                     y="69.108536" />
+                </g>
+                <g
+                   id="g7420"
+                   transform="translate(155.44165,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7422"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7424"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7426"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="53.94178"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7428"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+              </g>
+              <flowRoot
+                 transform="translate(-152.58451,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot7430"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion7432"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect7434" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara7436">2</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot7438"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-113.38129,-497.78473)"><flowRegion
+                   id="flowRegion7440"><rect
+                     id="rect7442"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara7444"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>              <flowRoot
+                 transform="translate(-270.19418,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot7446"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion7448"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect7450" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara7452">1</flowPara></flowRoot>            </g>
+          </g>
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot7456"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-186.66831,59.800921)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion7458"><rect
+                 id="rect7460"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara7462"
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">after 1st partition</flowPara></flowRoot>        </g>
+        <g
+           id="g7480"
+           transform="translate(0,-42.52283)"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999">
+          <g
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             transform="matrix(0.79877944,0,0,-0.79877944,86.086139,195.89899)"
+             id="g7482">
+            <g
+               id="g7484"
+               transform="matrix(1,0,0,-1,0,94.520784)">
+              <g
+                 transform="translate(-155.44165,-248.49753)"
+                 id="g7486">
+                <g
+                   id="g7488"
+                   transform="translate(-2.0203051,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7490"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7492"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+                <g
+                   transform="translate(155.44165,133.34014)"
+                   id="g7498">
+                  <rect
+                     y="69.108536"
+                     x="172.03825"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7500"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7502"
+                     width="37.115925"
+                     height="37.115925"
+                     x="132.67276"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="93.307266"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7504"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7506"
+                     width="37.115925"
+                     height="37.115925"
+                     x="53.94178"
+                     y="69.108536" />
+                </g>
+              </g>
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot7508"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-152.58451,-497.78473)"><flowRegion
+                   id="flowRegion7510"><rect
+                     id="rect7512"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara7514"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>              <flowRoot
+                 transform="translate(-113.38129,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot7516"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion7518"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect7520" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara7522">3</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot7524"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-270.19418,-497.78473)"><flowRegion
+                   id="flowRegion7526"><rect
+                     id="rect7528"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara7530"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            </g>
+            <rect
+               y="-140.64352"
+               x="-64.255035"
+               height="37.115925"
+               width="37.115925"
+               id="rect9203-8"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               transform="scale(1,-1)" />
+            <rect
+               transform="scale(1,-1)"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               id="rect9280"
+               width="37.115925"
+               height="37.115925"
+               x="-104.04789"
+               y="-140.64352" />
+          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             transform="translate(-186.66831,59.800921)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot7534"
+             xml:space="preserve"><flowRegion
+               id="flowRegion7536"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="107.14285"
+                 width="197.14285"
+                 id="rect7538" /></flowRegion><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara7540">re-partitioning</flowPara><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara7560">(granularity=3)</flowPara></flowRoot>          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             xml:space="preserve"
+             id="flowRoot7542"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(290.05568,61.332067)"><flowRegion
+               id="flowRegion7544"><rect
+                 id="rect7546"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara7548"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold">FAIL</flowPara></flowRoot>          <flowRoot
+             transform="translate(292.07599,134.06305)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot7550"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion7552"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect7554" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+               id="flowPara7556">PASS</flowPara></flowRoot>          <g
+             id="g7562"
+             transform="matrix(0.79877944,0,0,-0.79877944,86.086139,268.62997)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999">
+            <g
+               transform="matrix(1,0,0,-1,0,94.520784)"
+               id="g7564">
+              <g
+                 id="g7566"
+                 transform="translate(-155.44165,-248.49753)">
+                <g
+                   transform="translate(-2.0203051,133.34014)"
+                   id="g7568">
+                  <rect
+                     y="69.108536"
+                     x="93.307266"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7574"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7576"
+                     width="37.115925"
+                     height="37.115925"
+                     x="53.94178"
+                     y="69.108536" />
+                </g>
+                <g
+                   id="g7578"
+                   transform="translate(155.44165,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7580"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7582"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7584"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                </g>
+              </g>
+              <flowRoot
+                 transform="translate(-152.58451,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot7588"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion7590"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect7592" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara7594">2</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot7596"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-113.38129,-497.78473)"><flowRegion
+                   id="flowRegion7598"><rect
+                     id="rect7600"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara7602"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>              <flowRoot
+                 transform="translate(-270.19418,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot7604"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion7606"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect7608" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara7610" /></flowRoot>            </g>
+            <rect
+               y="-140.4856"
+               x="-25.3564"
+               height="37.115925"
+               width="37.115925"
+               id="rect9203-63"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               transform="scale(1,-1)" />
+            <rect
+               transform="scale(1,-1)"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               id="rect9289"
+               width="37.115925"
+               height="37.115925"
+               x="13.846824"
+               y="-140.4856" />
+            <rect
+               y="-140.4856"
+               x="53.682358"
+               height="37.115925"
+               width="37.115925"
+               id="rect9291"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               transform="scale(1,-1)" />
+          </g>
+          <g
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             transform="matrix(0.79877944,0,0,-0.79877944,86.086139,331.25943)"
+             id="g7614">
+            <g
+               id="g7616"
+               transform="matrix(1,0,0,-1,0,94.520784)">
+              <g
+                 transform="translate(-155.44165,-248.49753)"
+                 id="g7618">
+                <g
+                   id="g7620"
+                   transform="translate(-2.0203051,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7622"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7624"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7626"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="53.94178"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect7628"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+                <g
+                   transform="translate(155.44165,133.34014)"
+                   id="g7630">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect7638"
+                     width="37.115925"
+                     height="37.115925"
+                     x="53.94178"
+                     y="69.108536" />
+                </g>
+              </g>
+              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot7656"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-270.19418,-497.78473)"><flowRegion
+                   id="flowRegion7658"><rect
+                     id="rect7660"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara7662"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            </g>
+            <rect
+               y="-140.65607"
+               x="93.223251"
+               height="37.115925"
+               width="37.115925"
+               id="rect9203-0"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               transform="scale(1,-1)" />
+            <rect
+               transform="scale(1,-1)"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               id="rect9300"
+               width="37.115925"
+               height="37.115925"
+               x="132.74263"
+               y="-140.65607" />
+            <rect
+               y="-140.65607"
+               x="171.6297"
+               height="37.115925"
+               width="37.115925"
+               id="rect9302"
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               transform="scale(1,-1)" />
+          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step3.png"
+             xml:space="preserve"
+             id="flowRoot7666"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(292.07599,195.68236)"><flowRegion
+               id="flowRegion7668"><rect
+                 id="rect7670"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara7672"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>        </g>
+      </g>
+      <rect
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step4.png"
+         y="-569.14325"
+         x="-208.09215"
+         height="390"
+         width="745.71429"
+         id="rect7680"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7684"
+         y="-301.17465"
+         x="255.98625"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="-301.17465"
+           x="255.98625"
+           id="tspan7686"
+           sodipodi:role="line" /></text>
+      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step4.png"
+         id="g8024"
+         transform="translate(-0.71428572,-475.71428)">
+        <g
+           id="g7688"
+           transform="translate(0,-142.52283)">
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             transform="translate(-186.66831,59.800921)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot7740"
+             xml:space="preserve"><flowRegion
+               id="flowRegion7742"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect7744" /></flowRegion><flowPara
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+               id="flowPara7746">after 2nd partition</flowPara></flowRoot>        </g>
+        <g
+           id="g7750"
+           transform="matrix(0.79877944,0,0,-0.79877944,48.217244,52.90256)"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999">
+          <g
+             transform="matrix(1,0,0,-1,0,94.520784)"
+             id="g7752">
+            <g
+               id="g7754"
+               transform="translate(-155.44165,-248.49753)">
+              <g
+                 transform="translate(-2.0203051,133.34014)"
+                 id="g7756">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7758"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7760"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+              </g>
+              <g
+                 id="g7762"
+                 transform="translate(155.44165,133.34014)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7764"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7766"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect7768"
+                   width="37.115925"
+                   height="37.115925"
+                   x="93.307266"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="53.94178"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect7770"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+            </g>
+            <flowRoot
+               transform="translate(-152.58451,-497.78473)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot7772"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion7774"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect7776" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara7778">2</flowPara></flowRoot>            <flowRoot
+               xml:space="preserve"
+               id="flowRoot7780"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="translate(-113.38129,-497.78473)"><flowRegion
+                 id="flowRegion7782"><rect
+                   id="rect7784"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara7786"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>            <flowRoot
+               transform="translate(-270.19418,-497.78473)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot7788"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion7790"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect7792" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara7794">1</flowPara></flowRoot>          </g>
+        </g>
+        <flowRoot
+           transform="translate(268.76743,-81.283769)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot7808"
+           xml:space="preserve"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-ydpi="300.10999"><flowRegion
+             id="flowRegion7810"><rect
+               y="23.790754"
+               x="-8.5714283"
+               height="32.85714"
+               width="197.14285"
+               id="rect7812" /></flowRegion><flowPara
+             style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold"
+             id="flowPara7814">FAIL</flowPara></flowRoot>      </g>
+      <flowRoot
+         transform="translate(325.19599,-268.42662)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot8392"
+         xml:space="preserve"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion8394"><rect
+             y="23.790754"
+             x="-8.5714283"
+             height="32.85714"
+             width="197.14285"
+             id="rect8396" /></flowRegion><flowPara
+           style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold"
+           id="flowPara8398" /></flowRoot>      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect8434"
+         width="745.71429"
+         height="390"
+         x="-208.09213"
+         y="-1088.3617"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999" />
+      <path
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:connector-curvature="0"
+         id="path8436"
+         d="M 255.21006,-787.31039 z"
+         style="fill:none;stroke:#000000;stroke-width:0.79877943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         transform="translate(-0.71428572,-994.93269)"
+         id="g8438">
+        <g
+           transform="translate(0,-142.52283)"
+           id="g8440">
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot8442"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-186.66831,59.800921)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion8444"><rect
+                 id="rect8446"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara8448"
+               style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic">after 2nd partition</flowPara></flowRoot>        </g>
+        <g
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="matrix(0.79877944,0,0,-0.79877944,48.217244,52.90256)"
+           id="g8450">
+          <g
+             id="g8452"
+             transform="matrix(1,0,0,-1,0,94.520784)">
+            <g
+               transform="translate(-155.44165,-248.49753)"
+               id="g8454">
+              <g
+                 id="g8456"
+                 transform="translate(-2.0203051,133.34014)">
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect8458"
+                   width="37.115925"
+                   height="37.115925"
+                   x="172.03825"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="132.67276"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect8460"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              </g>
+              <g
+                 transform="translate(155.44165,133.34014)"
+                 id="g8462">
+                <rect
+                   y="69.108536"
+                   x="172.03825"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect8464"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect8466"
+                   width="37.115925"
+                   height="37.115925"
+                   x="132.67276"
+                   y="69.108536" />
+                <rect
+                   y="69.108536"
+                   x="93.307266"
+                   height="37.115925"
+                   width="37.115925"
+                   id="rect8468"
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                <rect
+                   style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                   id="rect8470"
+                   width="37.115925"
+                   height="37.115925"
+                   x="53.94178"
+                   y="69.108536" />
+              </g>
+            </g>
+            <flowRoot
+               xml:space="preserve"
+               id="flowRoot8472"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="translate(-152.58451,-497.78473)"><flowRegion
+                 id="flowRegion8474"><rect
+                   id="rect8476"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara8478"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>            <flowRoot
+               transform="translate(-113.38129,-497.78473)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot8480"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion8482"><rect
+                   y="452.71933"
+                   x="254.28572"
+                   height="36.785713"
+                   width="35.357143"
+                   id="rect8484" /></flowRegion><flowPara
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                 id="flowPara8486">3</flowPara></flowRoot>            <flowRoot
+               xml:space="preserve"
+               id="flowRoot8488"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               transform="translate(-270.19418,-497.78473)"><flowRegion
+                 id="flowRegion8490"><rect
+                   id="rect8492"
+                   width="35.357143"
+                   height="36.785713"
+                   x="254.28572"
+                   y="452.71933" /></flowRegion><flowPara
+                 id="flowPara8494"
+                 style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>          </g>
+        </g>
+        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           xml:space="preserve"
+           id="flowRoot8496"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(268.76743,-81.283769)"><flowRegion
+             id="flowRegion8498"><rect
+               id="rect8500"
+               width="197.14285"
+               height="32.85714"
+               x="-8.5714283"
+               y="23.790754" /></flowRegion><flowPara
+             id="flowPara8502"
+             style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold">FAIL</flowPara></flowRoot>      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text8580"
+         y="-878.45776"
+         x="247.13875"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="-878.45776"
+           x="247.13875"
+           id="tspan8582"
+           sodipodi:role="line" /></text>
+      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         id="g8584"
+         transform="translate(-0.71428572,-1052.3786)">
+        <flowRoot
+           inkscape:export-ydpi="300.10999"
+           inkscape:export-xdpi="300.10999"
+           inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+           transform="translate(-186.66831,59.800921)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot8586"
+           xml:space="preserve"><flowRegion
+             id="flowRegion8588"><rect
+               y="23.790754"
+               x="-8.5714283"
+               height="75.714287"
+               width="194.28571"
+               id="rect8590" /></flowRegion><flowPara
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+             id="flowPara8592">3rd partition</flowPara><flowPara
+             style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+             id="flowPara8594">(granularity=4)</flowPara></flowRoot>      </g>
+      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         transform="matrix(0.79877944,0,0,0.79877944,44.645815,-799.67424)"
+         id="g8672">
+        <g
+           id="g8674"
+           transform="translate(-155.44165,-248.49753)">
+          <g
+             transform="translate(-2.0203051,133.34014)"
+             id="g8676">
+            <rect
+               y="69.108536"
+               x="172.03825"
+               height="37.115925"
+               width="37.115925"
+               id="rect8678"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect8680"
+               width="37.115925"
+               height="37.115925"
+               x="132.67276"
+               y="69.108536" />
+          </g>
+          <g
+             id="g8682"
+             transform="translate(155.44165,133.34014)">
+            <rect
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+               id="rect8684"
+               width="37.115925"
+               height="37.115925"
+               x="172.03825"
+               y="69.108536" />
+            <rect
+               y="69.108536"
+               x="132.67276"
+               height="37.115925"
+               width="37.115925"
+               id="rect8686"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               y="69.108536"
+               x="53.94178"
+               height="37.115925"
+               width="37.115925"
+               id="rect8688"
+               style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            <rect
+               style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.24956489;stroke-miterlimit:4;stroke-dasharray:4.49912991, 2.24956495;stroke-dashoffset:0"
+               id="rect9203"
+               width="37.115925"
+               height="37.115925"
+               x="93.287521"
+               y="69.108536" />
+          </g>
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot8690"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           transform="translate(-113.38129,-497.78473)"><flowRegion
+             id="flowRegion8692"><rect
+               id="rect8694"
+               width="35.357143"
+               height="36.785713"
+               x="254.28572"
+               y="452.71933" /></flowRegion><flowPara
+             id="flowPara8696"
+             style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>        <flowRoot
+           transform="translate(-270.19418,-497.78473)"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           id="flowRoot8698"
+           xml:space="preserve"><flowRegion
+             id="flowRegion8700"><rect
+               y="452.71933"
+               x="254.28572"
+               height="36.785713"
+               width="35.357143"
+               id="rect8702" /></flowRegion><flowPara
+             style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+             id="flowPara8704">1</flowPara></flowRoot>      </g>
+      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         transform="translate(-0.71428572,-564.28571)"
+         id="g9060">
+        <g
+           id="g8598"
+           transform="matrix(0.79877944,0,0,0.79877944,45.360086,-355.38853)">
+          <g
+             transform="translate(-155.44165,-248.49753)"
+             id="g8600">
+            <g
+               id="g8602"
+               transform="translate(-2.0203051,133.34014)">
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8604"
+                 width="37.115925"
+                 height="37.115925"
+                 x="172.03825"
+                 y="69.108536" />
+            </g>
+            <g
+               transform="translate(155.44165,133.34014)"
+               id="g8606">
+              <rect
+                 y="69.108536"
+                 x="172.03825"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8608"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8610"
+                 width="37.115925"
+                 height="37.115925"
+                 x="132.67276"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="93.307266"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8612"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8614"
+                 width="37.115925"
+                 height="37.115925"
+                 x="53.94178"
+                 y="69.108536" />
+            </g>
+          </g>
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot8616"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-152.58451,-497.78473)"><flowRegion
+               id="flowRegion8618"><rect
+                 id="rect8620"
+                 width="35.357143"
+                 height="36.785713"
+                 x="254.28572"
+                 y="452.71933" /></flowRegion><flowPara
+               id="flowPara8622"
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>          <flowRoot
+             transform="translate(-113.38129,-497.78473)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8624"
+             xml:space="preserve"><flowRegion
+               id="flowRegion8626"><rect
+                 y="452.71933"
+                 x="254.28572"
+                 height="36.785713"
+                 width="35.357143"
+                 id="rect8628" /></flowRegion><flowPara
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+               id="flowPara8630">3</flowPara></flowRoot>        </g>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+           id="rect9203-6"
+           width="29.647438"
+           height="29.647438"
+           x="25.831968"
+           y="-392.1813" />
+      </g>
+      <flowRoot
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         xml:space="preserve"
+         id="flowRoot8740"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(263.05314,-980.50217)"><flowRegion
+           id="flowRegion8742"><rect
+             id="rect8744"
+             width="197.14285"
+             height="32.85714"
+             x="-8.5714283"
+             y="23.790754" /></flowRegion><flowPara
+           id="flowPara8746"
+           style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>      <flowRoot
+         transform="translate(263.05314,-916.93075)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot8748"
+         xml:space="preserve"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion8750"><rect
+             y="23.790754"
+             x="-8.5714283"
+             height="32.85714"
+             width="197.14285"
+             id="rect8752" /></flowRegion><flowPara
+           style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#ff0000;-inkscape-font-specification:Sans Bold"
+           id="flowPara8754">FAIL</flowPara></flowRoot>      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         transform="translate(-5.7143007,-485.71428)"
+         id="g9141">
+        <g
+           id="g8632"
+           transform="matrix(0.79877944,0,0,0.79877944,50.360101,-372.5314)">
+          <g
+             transform="translate(-155.44165,-248.49753)"
+             id="g8634">
+            <g
+               id="g8636"
+               transform="translate(-2.0203051,133.34014)">
+              <rect
+                 y="69.108536"
+                 x="132.67276"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8638"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            </g>
+            <g
+               transform="translate(155.44165,133.34014)"
+               id="g8640">
+              <rect
+                 y="69.108536"
+                 x="172.03825"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8642"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8644"
+                 width="37.115925"
+                 height="37.115925"
+                 x="132.67276"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="93.307266"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8646"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            </g>
+          </g>
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot8648"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-152.58451,-497.78473)"><flowRegion
+               id="flowRegion8650"><rect
+                 id="rect8652"
+                 width="35.357143"
+                 height="36.785713"
+                 x="254.28572"
+                 y="452.71933" /></flowRegion><flowPara
+               id="flowPara8654"
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">2</flowPara></flowRoot>          <flowRoot
+             transform="translate(-113.38129,-497.78473)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8656"
+             xml:space="preserve"><flowRegion
+               id="flowRegion8658"><rect
+                 y="452.71933"
+                 x="254.28572"
+                 height="36.785713"
+                 width="35.357143"
+                 id="rect8660" /></flowRegion><flowPara
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+               id="flowPara8662">3</flowPara></flowRoot>          <flowRoot
+             xml:space="preserve"
+             id="flowRoot8664"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(-270.19418,-497.78473)"><flowRegion
+               id="flowRegion8666"><rect
+                 id="rect8668"
+                 width="35.357143"
+                 height="36.785713"
+                 x="254.28572"
+                 y="452.71933" /></flowRegion><flowPara
+               id="flowPara8670"
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>        </g>
+      </g>
+      <flowRoot
+         transform="translate(263.05314,-856.21646)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot8762"
+         xml:space="preserve"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion8764"><rect
+             y="23.790754"
+             x="-8.5714283"
+             height="32.85714"
+             width="197.14285"
+             id="rect8766" /></flowRegion><flowPara
+           style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+           id="flowPara8768">PASS</flowPara></flowRoot>      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         transform="translate(-234.28572,-459.28571)"
+         id="g9184">
+        <g
+           transform="matrix(0.79877944,0,0,0.79877944,278.93153,-283.95996)"
+           id="g8706">
+          <g
+             id="g8708"
+             transform="translate(-155.44165,-248.49753)">
+            <g
+               transform="translate(-2.0203051,133.34014)"
+               id="g8710">
+              <rect
+                 y="69.108536"
+                 x="172.03825"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8712"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8714"
+                 width="37.115925"
+                 height="37.115925"
+                 x="132.67276"
+                 y="69.108536" />
+            </g>
+            <g
+               id="g8716"
+               transform="translate(155.44165,133.34014)">
+              <rect
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                 id="rect8718"
+                 width="37.115925"
+                 height="37.115925"
+                 x="93.307266"
+                 y="69.108536" />
+              <rect
+                 y="69.108536"
+                 x="53.94178"
+                 height="37.115925"
+                 width="37.115925"
+                 id="rect8720"
+                 style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+            </g>
+          </g>
+          <flowRoot
+             transform="translate(-152.58451,-497.78473)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8722"
+             xml:space="preserve"><flowRegion
+               id="flowRegion8724"><rect
+                 y="452.71933"
+                 x="254.28572"
+                 height="36.785713"
+                 width="35.357143"
+                 id="rect8726" /></flowRegion><flowPara
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+               id="flowPara8728">2</flowPara></flowRoot>          <flowRoot
+             transform="translate(-270.19418,-497.78473)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8730"
+             xml:space="preserve"><flowRegion
+               id="flowRegion8732"><rect
+                 y="452.71933"
+                 x="254.28572"
+                 height="36.785713"
+                 width="35.357143"
+                 id="rect8734" /></flowRegion><flowPara
+               style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+               id="flowPara8736">1</flowPara></flowRoot>        </g>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+           id="rect9203-3"
+           width="29.647438"
+           height="29.647438"
+           x="384.40341"
+           y="-320.75272" />
+        <rect
+           y="-320.75272"
+           x="415.47485"
+           height="29.647438"
+           width="29.647438"
+           id="rect9239"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0" />
+      </g>
+      <flowRoot
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         xml:space="preserve"
+         id="flowRoot8774"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="translate(263.05314,-799.0736)"><flowRegion
+           id="flowRegion8776"><rect
+             id="rect8778"
+             width="197.14285"
+             height="32.85714"
+             x="-8.5714283"
+             y="23.790754" /></flowRegion><flowPara
+           id="flowPara8780"
+           style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>      <g
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step4.png"
+         transform="translate(-0.71428572,-452.85714)"
+         id="g8896">
+        <g
+           id="g8059"
+           transform="translate(0,78.571429)">
+          <g
+             id="g8061"
+             transform="translate(0,-142.52283)">
+            <flowRoot
+               inkscape:export-ydpi="300.10999"
+               inkscape:export-xdpi="300.10999"
+               inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+               transform="translate(-186.66831,59.800921)"
+               style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               id="flowRoot8063"
+               xml:space="preserve"><flowRegion
+                 id="flowRegion8065"><rect
+                   y="23.790754"
+                   x="-8.5714283"
+                   height="75.714287"
+                   width="194.28571"
+                   id="rect8067" /></flowRegion><flowPara
+                 style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+                 id="flowPara8069">3rd partition</flowPara><flowPara
+                 style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic"
+                 id="flowPara8127">(granularity=3)</flowPara></flowRoot>          </g>
+          <g
+             id="g8071"
+             transform="matrix(0.79877944,0,0,-0.79877944,48.217244,52.90256)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999">
+            <g
+               transform="matrix(1,0,0,-1,0,94.520784)"
+               id="g8073">
+              <g
+                 id="g8075"
+                 transform="translate(-155.44165,-248.49753)">
+                <g
+                   id="g8083"
+                   transform="translate(155.44165,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8085"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8087"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8089"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="53.94178"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8091"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+              </g>
+              <flowRoot
+                 transform="translate(-152.58451,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot8093"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion8095"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect8097" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara8099">2</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot8101"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-113.38129,-497.78473)"><flowRegion
+                   id="flowRegion8103"><rect
+                     id="rect8105"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara8107"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>            </g>
+          </g>
+          <flowRoot
+             transform="translate(268.76743,-81.283769)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8119"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion8121"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect8123" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+               id="flowPara8125">PASS</flowPara></flowRoot>          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             x="2130.4116"
+             y="-264.87674"
+             id="text8137"
+             sodipodi:linespacing="125%"
+             transform="translate(-1882.5586,302.78025)"><tspan
+               sodipodi:role="line"
+               id="tspan8139"
+               x="2130.4116"
+               y="-264.87674" /></text>
+          <g
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             transform="matrix(0.79877944,0,0,-0.79877944,48.217244,106.44064)"
+             id="g8782">
+            <g
+               id="g8784"
+               transform="matrix(1,0,0,-1,0,94.520784)">
+              <g
+                 transform="translate(-155.44165,-248.49753)"
+                 id="g8786">
+                <g
+                   id="g8788"
+                   transform="translate(-2.0203051,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8790"
+                     width="37.115925"
+                     height="37.115925"
+                     x="172.03825"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="132.67276"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8792"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+                <g
+                   transform="translate(155.44165,133.34014)"
+                   id="g8794">
+                  <rect
+                     y="69.108536"
+                     x="172.03825"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8796"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8798"
+                     width="37.115925"
+                     height="37.115925"
+                     x="132.67276"
+                     y="69.108536" />
+                </g>
+              </g>
+              <flowRoot
+                 transform="translate(-113.38129,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot8812"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion8814"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect8816" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara8818">3</flowPara></flowRoot>              <flowRoot
+                 xml:space="preserve"
+                 id="flowRoot8820"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 transform="translate(-270.19418,-497.78473)"><flowRegion
+                   id="flowRegion8822"><rect
+                     id="rect8824"
+                     width="35.357143"
+                     height="36.785713"
+                     x="254.28572"
+                     y="452.71933" /></flowRegion><flowPara
+                   id="flowPara8826"
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">1</flowPara></flowRoot>            </g>
+          </g>
+          <g
+             id="g8828"
+             transform="matrix(0.79877944,0,0,-0.79877944,48.217244,157.95842)"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999">
+            <g
+               transform="matrix(1,0,0,-1,0,94.520784)"
+               id="g8830">
+              <g
+                 id="g8832"
+                 transform="translate(-155.44165,-248.49753)">
+                <g
+                   transform="translate(-2.0203051,133.34014)"
+                   id="g8834">
+                  <rect
+                     y="69.108536"
+                     x="172.03825"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8836"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8838"
+                     width="37.115925"
+                     height="37.115925"
+                     x="132.67276"
+                     y="69.108536" />
+                </g>
+                <g
+                   id="g8840"
+                   transform="translate(155.44165,133.34014)">
+                  <rect
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+                     id="rect8846"
+                     width="37.115925"
+                     height="37.115925"
+                     x="93.307266"
+                     y="69.108536" />
+                  <rect
+                     y="69.108536"
+                     x="53.94178"
+                     height="37.115925"
+                     width="37.115925"
+                     id="rect8848"
+                     style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+                </g>
+              </g>
+              <flowRoot
+                 transform="translate(-152.58451,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot8850"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion8852"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect8854" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara8856">2</flowPara></flowRoot>              <flowRoot
+                 transform="translate(-270.19418,-497.78473)"
+                 style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+                 id="flowRoot8866"
+                 xml:space="preserve"><flowRegion
+                   id="flowRegion8868"><rect
+                     y="452.71933"
+                     x="254.28572"
+                     height="36.785713"
+                     width="35.357143"
+                     id="rect8870" /></flowRegion><flowPara
+                   style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+                   id="flowPara8872">1</flowPara></flowRoot>            </g>
+          </g>
+          <flowRoot
+             inkscape:export-ydpi="300.10999"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             xml:space="preserve"
+             id="flowRoot8880"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             transform="translate(268.76743,-29.140912)"><flowRegion
+               id="flowRegion8882"><rect
+                 id="rect8884"
+                 width="197.14285"
+                 height="32.85714"
+                 x="-8.5714283"
+                 y="23.790754" /></flowRegion><flowPara
+               id="flowPara8886"
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold">PASS</flowPara></flowRoot>          <flowRoot
+             transform="translate(268.76743,21.573374)"
+             style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             id="flowRoot8888"
+             xml:space="preserve"
+             inkscape:export-filename="/home/krother/Desktop/delta_debugging/bisect_complete.png"
+             inkscape:export-xdpi="300.10999"
+             inkscape:export-ydpi="300.10999"><flowRegion
+               id="flowRegion8890"><rect
+                 y="23.790754"
+                 x="-8.5714283"
+                 height="32.85714"
+                 width="197.14285"
+                 id="rect8892" /></flowRegion><flowPara
+               style="font-size:20px;font-style:normal;font-weight:bold;letter-spacing:3px;fill:#008000;-inkscape-font-specification:Sans Bold"
+               id="flowPara8894">PASS</flowPara></flowRoot>        </g>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+           id="rect9203-32"
+           width="29.647438"
+           height="29.647438"
+           x="91.059647"
+           y="72.6465" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+           id="rect9203-7"
+           width="29.647438"
+           height="29.647438"
+           x="122.62691"
+           y="72.89904" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+           id="rect9203-71"
+           width="29.647438"
+           height="29.647438"
+           x="153.94164"
+           y="123.91174" />
+        <rect
+           y="123.91174"
+           x="185.25636"
+           height="29.647438"
+           width="29.647438"
+           id="rect9271"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0" />
+      </g>
+      <rect
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+         id="rect9203-4"
+         width="29.647438"
+         height="29.647438"
+         x="56.189114"
+         y="-894.68127" />
+      <rect
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         y="-894.68127"
+         x="87.617683"
+         height="29.647438"
+         width="29.647438"
+         id="rect9223"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0" />
+      <rect
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step4.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0"
+         id="rect9203-9"
+         width="29.647438"
+         height="29.647438"
+         x="59.788239"
+         y="-433.74872" />
+      <rect
+         inkscape:export-ydpi="300.10999"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step4.png"
+         y="-433.74872"
+         x="27.968435"
+         height="29.647438"
+         width="29.647438"
+         id="rect9248"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.79690623;stroke-miterlimit:4;stroke-dasharray:3.59381247, 1.79690623;stroke-dashoffset:0" />
+      <g
+         id="g9566"
+         transform="matrix(0.79877944,0,0,0.79877944,323.15712,-950.23104)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999">
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect9568"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         transform="matrix(0.79877944,0,0,0.79877944,386.07736,-950.23104)"
+         id="g9570"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect9574"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect9576"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <flowRoot
+         transform="matrix(0.79877944,0,0,0.79877944,264.19599,-1255.8659)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot9578"
+         xml:space="preserve"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion9580"><rect
+             y="452.71933"
+             x="254.28572"
+             height="36.785713"
+             width="35.357143"
+             id="rect9582" /></flowRegion><flowPara
+           style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           id="flowPara9584">2</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot9586"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="matrix(0.79877944,0,0,0.79877944,295.51072,-1255.8659)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion9588"><rect
+             id="rect9590"
+             width="35.357143"
+             height="36.785713"
+             x="254.28572"
+             y="452.71933" /></flowRegion><flowPara
+           id="flowPara9592"
+           style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">3</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.79877944,0,0,0.79877944,233.10894,-1255.8659)"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="flowRoot9594"
+         xml:space="preserve"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999"><flowRegion
+           id="flowRegion9596"><rect
+             y="452.71933"
+             x="254.28572"
+             height="36.785713"
+             width="35.357143"
+             id="rect9598" /></flowRegion><flowPara
+           style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           id="flowPara9600">1</flowPara></flowRoot>      <path
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+         d="m 2220.7143,-788.35211 75.7143,0"
+         id="path9642"
+         inkscape:connector-curvature="0"
+         transform="translate(-1882.5586,-92.934035)"
+         inkscape:export-filename="/home/krother/Desktop/delta_debugging/ddebug_step5.png"
+         inkscape:export-xdpi="300.10999"
+         inkscape:export-ydpi="300.10999" />
+    </g>
+  </g>
+</svg>

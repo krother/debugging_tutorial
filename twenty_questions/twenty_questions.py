@@ -9,7 +9,7 @@ class QuestionNode:
     and two possible answers
     """
     def __init__(self, text):
-        self.text = text
+        self.text = text.strip()
         self.yes = None
         self.no = None
 
@@ -21,14 +21,14 @@ class QuestionNode:
         
     def is_full(self):
         """True if both branches are occupied"""
-        self.result = self.yes and self.no
+        result = self.yes and self.no
 
 
 class AnswerNode:
     """Leaf node containing an answer."""
 
     def __init__(self, text):
-        self._text = text[2:]
+        self._text = text[2:].strip()
 
     @property
     def text(self):
@@ -62,7 +62,7 @@ def read_question_tree(fn):
                 # find last unfinished node
                 while head.is_full() and stack:
                     stack.pop()
-                head = stack[-1
+                    head = stack[-1
             return root.yes
 
 

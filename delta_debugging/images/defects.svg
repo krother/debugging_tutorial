@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="defects.svg"
+   inkscape:export-filename="/home/krother/projects/delta_debug/images/defects.png"
+   inkscape:export-xdpi="300.10999"
+   inkscape:export-ydpi="300.10999">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path5194"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5194-9"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.69999999"
+     inkscape:cx="560.30914"
+     inkscape:cy="842.69322"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1,0,0,-1,205.94928,143.00811)"
+       id="g3237" />
+    <rect
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       y="0.93360931"
+       x="1.4285953"
+       height="390"
+       width="745.71429"
+       id="rect5684"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <g
+       id="g3045"
+       transform="matrix(0.79877944,0,0,0.79877944,184.82947,11.307934)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         id="g3019">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect2997"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect2999"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect3001"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect3003"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         transform="translate(157.46196,0)"
+         id="g3013">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect3005"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect3007"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect3009"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect3011"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect3319"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         id="g3025"
+         transform="translate(314.92392,0)">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect3027"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect3029"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect3031"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect3033"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3189"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.79877944,0,0,0.79877944,133.01119,-294.32691)"><flowRegion
+         id="flowRegion3191"><rect
+           id="rect3193"
+           width="35.357143"
+           height="36.785713"
+           x="254.28572"
+           y="452.71933" /></flowRegion><flowPara
+         id="flowPara3195"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 665.46286,68.648466 0,271.517844"
+       id="path5161"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999" />
+    <flowRoot
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       transform="translate(112.69057,127.02068)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5609"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5611"><rect
+           y="23.790754"
+           x="-8.5714283"
+           height="42.857143"
+           width="168.57143"
+           id="rect5613" /></flowRegion><flowPara
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Italic"
+         id="flowPara5615">defect</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       transform="translate(28.10463,201.30641)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5660"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5662"><rect
+           y="23.790754"
+           x="-8.5714283"
+           height="58.571426"
+           width="155.71428"
+           id="rect5664" /></flowRegion><flowPara
+         style="font-size:20px;font-style:normal;font-weight:bold;text-align:end;text-anchor:end;-inkscape-font-specification:Sans Italic"
+         id="flowPara5666">error </flowPara><flowPara
+         style="font-size:20px;font-style:normal;font-weight:bold;text-align:end;text-anchor:end;-inkscape-font-specification:Sans Italic"
+         id="flowPara5335">propagation</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       xml:space="preserve"
+       id="flowRoot5668"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(124.99525,45.592101)"><flowRegion
+         id="flowRegion5670"><rect
+           id="rect5672"
+           width="95.714279"
+           height="34.285713"
+           x="-8.5714283"
+           y="23.790754" /></flowRegion><flowPara
+         id="flowPara5674"
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Bold">input</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="300.10999"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       transform="translate(650.70954,8.4492332)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5676"
+       xml:space="preserve"><flowRegion
+         id="flowRegion5678"><rect
+           y="23.790754"
+           x="-8.5714283"
+           height="29.999996"
+           width="65.714287"
+           id="rect5680" /></flowRegion><flowPara
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Italic"
+         id="flowPara5682">time</flowPara></flowRoot>    <g
+       id="g4769"
+       style="stroke:#483e37">
+      <g
+         id="g10000"
+         transform="translate(-197.30438,37.142857)"
+         style="stroke:#000000" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4012"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(346.42382,8.4492332)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion4014"><rect
+           id="rect4016"
+           width="228.57143"
+           height="29.999994"
+           x="-8.5714283"
+           y="23.790754" /></flowRegion><flowPara
+         id="flowPara4018"
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Italic">program state </flowPara></flowRoot>    <g
+       transform="translate(55.714287,51.265328)"
+       id="g4020"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         id="g4024"
+         transform="matrix(0.79877944,0,0,0.79877944,129.11519,18.256866)">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4026"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4028"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4030"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4032"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+      <g
+         id="g4034"
+         transform="matrix(0.79877944,0,0,0.79877944,254.89257,18.256866)">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4036"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4038"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4040"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4042"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4044"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+      <g
+         transform="matrix(0.79877944,0,0,0.79877944,380.66994,18.256866)"
+         id="g4046">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4048"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4050"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4052"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4054"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4066"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         transform="matrix(0.79877944,0,0,0.79877944,133.01119,-287.37798)"><flowRegion
+           id="flowRegion4068"><rect
+             id="rect4070"
+             width="35.357143"
+             height="36.785713"
+             x="254.28572"
+             y="452.71933" /></flowRegion><flowPara
+           id="flowPara4072"
+           style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold" /></flowRoot>    </g>
+    <g
+       id="g4076"
+       transform="matrix(0.79877944,0,0,0.79877944,184.82947,127.73652)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         id="g4078">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4080"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4082"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4084"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4086"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         transform="translate(157.46196,0)"
+         id="g4088">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4090"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4092"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4094"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4096"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4098"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         id="g4100"
+         transform="translate(314.92392,0)">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4102"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4104"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4106"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4108"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4120"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.79877944,0,0,0.79877944,63.466559,-177.89833)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion4122"><rect
+           id="rect4124"
+           width="35.357143"
+           height="36.785713"
+           x="254.28572"
+           y="452.71933" /></flowRegion><flowPara
+         id="flowPara4126"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>    <g
+       transform="matrix(0.79877944,0,0,0.79877944,184.82947,185.95081)"
+       id="g4130"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         id="g4132">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4134"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4136"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4138"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4140"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+      <g
+         id="g4142"
+         transform="translate(157.46196,0)">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4144"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4146"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4148"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4150"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4152"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+      <g
+         transform="translate(314.92392,0)"
+         id="g4154">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4156"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4158"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4160"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4162"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+      </g>
+    </g>
+    <flowRoot
+       transform="matrix(0.79877944,0,0,0.79877944,94.89513,-119.68404)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4174"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion4176"><rect
+           y="452.71933"
+           x="254.28572"
+           height="36.785713"
+           width="35.357143"
+           id="rect4178" /></flowRegion><flowPara
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara4180">X</flowPara></flowRoot>    <g
+       id="g4184"
+       transform="matrix(0.79877944,0,0,0.79877944,184.82947,244.16509)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999">
+      <g
+         id="g4186">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4188"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4190"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4192"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4194"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         transform="translate(157.46196,0)"
+         id="g4196">
+        <rect
+           y="69.108536"
+           x="172.03825"
+           height="37.115925"
+           width="37.115925"
+           id="rect4198"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4200"
+           width="37.115925"
+           height="37.115925"
+           x="132.67276"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="93.307266"
+           height="37.115925"
+           width="37.115925"
+           id="rect4202"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4204"
+           width="37.115925"
+           height="37.115925"
+           x="53.94178"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4206"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+      <g
+         id="g4208"
+         transform="translate(314.92392,0)">
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4210"
+           width="37.115925"
+           height="37.115925"
+           x="172.03825"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="132.67276"
+           height="37.115925"
+           width="37.115925"
+           id="rect4212"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+        <rect
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489"
+           id="rect4214"
+           width="37.115925"
+           height="37.115925"
+           x="93.307266"
+           y="69.108536" />
+        <rect
+           y="69.108536"
+           x="53.94178"
+           height="37.115925"
+           width="37.115925"
+           id="rect4216"
+           style="fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:2.24956489" />
+      </g>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4228"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.79877944,0,0,0.79877944,157.75227,-61.46976)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion4230"><rect
+           id="rect4232"
+           width="35.357143"
+           height="36.785713"
+           x="254.28572"
+           y="452.71933"
+           style="fill:#000000" /></flowRegion><flowPara
+         id="flowPara4234"
+         style="font-size:28px;font-weight:bold;fill:#000000;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4361"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="matrix(0.79877944,0,0,0.79877944,157.75226,-119.68404)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion4363"><rect
+           id="rect4365"
+           width="35.357143"
+           height="36.785713"
+           x="254.28572"
+           y="452.71933" /></flowRegion><flowPara
+         id="flowPara4367"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Sans Bold">X</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="m 219.25559,139.50503 c -44.43764,11.14893 -41.7948,48.24322 0,60"
+       id="path4369"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5337"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(342.04044,318.44925)"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion5339"><rect
+           id="rect5341"
+           width="168.57143"
+           height="42.857143"
+           x="-8.5714283"
+           y="23.790754" /></flowRegion><flowPara
+         id="flowPara5343"
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Italic">failure!</flowPara></flowRoot>    <flowRoot
+       transform="translate(108.54994,278.44925)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot5345"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999"><flowRegion
+         id="flowRegion5347"><rect
+           y="23.790754"
+           x="-8.5714283"
+           height="34.285713"
+           width="95.714279"
+           id="rect5349" /></flowRegion><flowPara
+         style="font-size:20px;font-style:normal;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara5351">output</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="m 273.81759,212.36217 28.57143,27.14286"
+       id="path5353"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5541"
+       d="m 273.31251,212.36217 74.64286,24.64286"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="m 369.74108,272.71932 0,20.71429"
+       id="path5543"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/Desktop/delta_debugging/defects.png"
+       inkscape:export-xdpi="300.10999"
+       inkscape:export-ydpi="300.10999" />
+  </g>
+</svg>

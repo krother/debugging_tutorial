@@ -28,6 +28,7 @@ In this tutorial, participants will learn strategies for systematically debuggin
 
 ## Preparations
 
+* install Python 3
 * install IPython
 * install ipdb (`pip install ipdb`)
 * download data files from [https://www.dropbox.com/sh/j5eir3yenke46k2/AAAkPNvTcxbAsiRG5Fh5cHjaa?dl=0](https://www.dropbox.com/sh/j5eir3yenke46k2/AAAkPNvTcxbAsiRG5Fh5cHjaa?dl=0)
