@@ -20,7 +20,7 @@ In this tutorial, participants will learn strategies for systematically debuggin
 
 ## Duration
 
-3 hours
+1.5-3 hours
 
 ## Prerequisites
 
@@ -36,8 +36,6 @@ In this tutorial, participants will learn strategies for systematically debuggin
 ## What is in the files?
 
 * `twenty_questions/` - exercise for rehearsing basic debugging techniques
-* `nuke_door/` - code review exercise.
-* `delta_debugging/` - an advanced debugging technique
 * `proteins/` - debugging exercise for biologists.
 * `slides/` - presentation for Jupyter notebook.
 * `solution/` - correct version of the program.
