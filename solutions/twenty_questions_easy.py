@@ -9,7 +9,7 @@ def is_answer(node):
     return len(node) == 1
 
 
-f = open('questions.json')
+f = open('../twenty_questions/questions.json')
 content = f.read()
 node = json.loads(content)
 
