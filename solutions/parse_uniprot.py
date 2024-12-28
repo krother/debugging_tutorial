@@ -40,12 +40,12 @@ def parse_header(header):
     name = header.split('|')[2]
     name = name.lower()
     name = name[:]  # cut off accession number
-    fragment = int(bool(re.search('\(fragment\)', name)))
+    fragment = int(bool(re.search(r'\(fragment\)', name)))
     name = name.replace('(fragment)', '')
 
     # simplify name
     accession_end = name.find(' ') + 1
-    end = name.find('OS=Homo sapiens')
+    end = name.find('OS=Homo sapiens'.lower())
     name = name[accession_end:end].strip()
     return accession, name
 
